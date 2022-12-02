@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@coreui/vue": "^4.5.0",
+    "@vercel/analytics": "^0.1.5",
     "bootstrap": "^5.2.3",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"
