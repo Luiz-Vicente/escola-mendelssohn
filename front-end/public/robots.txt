@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /create-article
+
+Sitemap: https://www.devvicente.com.br/sitemap.xml

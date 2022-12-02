@@ -1,0 +1,84 @@
+/*********************************************************************************/
+/*                            Design System Colors                               */
+/*       https://github.com/twbs/bootstrap/blob/main/scss/_variables.scss        */
+/*********************************************************************************/
+
+// scss-docs-start gray-color-variables
+$white                : #fefefe !default;
+$gray-100             : #f8f9fa !default;
+$gray-200             : #e9ecef !default;
+$gray-300             : #dee2e6 !default;
+$gray-400             : #ced4da !default;
+$gray-500             : #adb5bd !default;
+$gray-600             : #6c757d !default;
+$gray-700             : #495057 !default;
+$gray-800             : #343a40 !default;
+$gray-900             : #212529 !default;
+$black                : #010409 !default;
+// scss-docs-end gray-color-variables
+
+// scss-docs-start color-system
+$gray-primary         : #1A2632 !default;
+$gray-secondary       : #233343 !default;
+$gray-tertiary        : #4F6478 !default;
+$green-primary        : #257e1a !default;
+$green-secondary      : #56ad46 !default;
+$green-tertiary       : #88dc73 !default;
+$red-primary          : #f91f0d !default;
+$red-secondary        : #ef381e !default;
+$red-tertiary         : #ff7950 !default;
+$orange-primary       : #ffa500 !default;
+$orange-secondary     : #f8a834 !default;
+$orange-tertiary      : #ffff97 !default;
+$yellow-primary       : #fbff00 !default;
+$yellow-secondary     : #fdff5a !default;
+$yellow-tertiary      : #ffffb3 !default;
+$blue-primary         : #00005f !default;
+$blue-secondary       : #0702fe !default;
+$blue-tertiary        : #2c13ef !default;
+$purple-primary       : #7c117c !default;
+$purple-secondary     : #954392 !default;
+$purple-tertiary      : #b662b2 !default;
+// scss-docs-end color-system
+
+// scss-docs-start theme-colors-map
+$theme-colors: (
+  // scss-docs-end color-system
+  "gray-primary"      :   $gray-primary,
+  "gray-secondary"    :   $gray-secondary,
+  "gray-tertiary"     :   $gray-tertiary,
+  "green-primary"     :   $green-primary,
+  "green-secondary"   :   $green-secondary,
+  "green-tertiary"    :   $green-tertiary,
+  "red-primary"       :   $red-primary,
+  "red-secondary"     :   $red-secondary,
+  "red-tertiary"      :   $red-tertiary,
+  "orange-primary"    :   $orange-primary,
+  "orange-secondary"  :   $orange-secondary,
+  "orange-tertiary"   :   $orange-tertiary,
+  "yellow-primary"    :   $yellow-primary,
+  "yellow-secondary"  :   $yellow-secondary,
+  "yellow-tertiary"   :   $yellow-tertiary,
+  "blue-primary"      :   $blue-primary,
+  "blue-secondary"    :   $blue-secondary,
+  "blue-tertiary"     :   $blue-tertiary,
+  "purple-primary"    :   $purple-primary,
+  "purple-secondary"  :   $purple-secondary,
+  "purple-tertiary"   :   $purple-tertiary,
+  // scss-docs-end color-system
+
+  // scss-docs-start color-system
+  "white"             :   $white,
+  "gray-100"          :   $gray-100,
+  "gray-200"          :   $gray-200,
+  "gray-300"          :   $gray-300,
+  "gray-400"          :   $gray-400,
+  "gray-500"          :   $gray-500,
+  "gray-600"          :   $gray-600,
+  "gray-700"          :   $gray-700,
+  "gray-800"          :   $gray-800,
+  "gray-900"          :   $gray-900,
+  "black"             :   $black,
+  // scss-docs-start color-system
+) !default;
+// scss-docs-end theme-colors-map
