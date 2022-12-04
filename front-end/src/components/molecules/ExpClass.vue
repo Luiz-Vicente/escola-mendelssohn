@@ -6,7 +6,7 @@
     class="p-5 w-100"
     style="border-radius: 30px 30px 0 0"
   >
-    <p class="m-0 fs-6 fw-light">Angende uma</p>
+    <p class="m-0 fs-6 fw-light">Agende uma</p>
     <h4 class="mb-4">aula experimental</h4>
     <input type="hidden" name="_subject" value="Novo cadastro no site" />
     <input type="hidden" name="_cc" value="escolamendelssohn@hotmail.com" />

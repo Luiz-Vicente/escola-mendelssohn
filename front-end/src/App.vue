@@ -1,8 +1,6 @@
 <template>
   <ONavbar />
-  <RouterView
-    :style="$screenSize.is.mobile ? 'padding: 0 20px' : 'padding: 0 100px'"
-  />
+  <RouterView />
   <OFooter />
 </template>
 

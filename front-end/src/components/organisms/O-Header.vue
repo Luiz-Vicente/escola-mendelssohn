@@ -1,5 +1,6 @@
 <template>
   <header
+    :style="$screenSize.is.mobile ? 'padding: 0 20px' : 'padding: 0 100px'"
     :class="{ 'flex-column': $screenSize.is.mobile }"
     class="w-100 d-flex pt-5"
   >
@@ -65,5 +66,6 @@ header {
   background-image: url("/img/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 </style>
