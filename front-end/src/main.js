@@ -12,6 +12,7 @@ const screenSize = new ScreenSizeDetector();
 const app = createApp(App);
 
 // style
+import '@coreui/coreui/dist/css/coreui.min.css'
 import "@/assets/scss/main.scss";
 
 // applying imported

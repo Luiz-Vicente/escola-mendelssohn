@@ -9,8 +9,8 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "@coreui/coreui": "^4.2.4",
     "@coreui/vue": "^4.5.0",
-    "@egjs/vue3-flicking": "^4.10.4",
     "@vercel/analytics": "^0.1.5",
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.2",

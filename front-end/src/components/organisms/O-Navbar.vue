@@ -86,6 +86,7 @@ export default {
 @import "@/assets/scss/variables/colors.scss";
 
 nav {
+  z-index: 2;
   position: sticky;
   top: 0px;
 }
