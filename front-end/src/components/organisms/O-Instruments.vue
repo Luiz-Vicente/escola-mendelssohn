@@ -1,6 +1,7 @@
 <template>
   <main :style="$screenSize.is.mobile ? 'padding: 0 20px' : 'padding: 0 100px'">
-    <h5 class="text-white pt-5">Cursos</h5>
+    <h4 class="text-white pt-5">Cursos</h4>
+    <p class="fw-lighter text-white fs-6 m-0">ofertados pela escola</p>
     <div class="mt-4 d-flex justify-content-around flex-wrap">
       <AAdvantage
         v-for="(instrument, index) in instruments"
