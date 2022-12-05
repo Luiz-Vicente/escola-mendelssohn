@@ -10,13 +10,15 @@
   },
   "dependencies": {
     "@coreui/vue": "^4.5.0",
+    "@egjs/vue3-flicking": "^4.10.4",
     "@vercel/analytics": "^0.1.5",
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.2",
     "screen-size-detector": "^1.0.4",
     "v-wave": "^1.5.0",
     "vue": "^3.2.45",
-    "vue-router": "^4.1.6"
+    "vue-router": "^4.1.6",
+    "vue3-photo-preview": "^0.2.8"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.2.0",

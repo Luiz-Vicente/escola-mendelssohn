@@ -20,6 +20,7 @@
       placeholder="Ex: João Cândido"
       type="text"
       maxlength="40"
+      name="name"
       required
     />
     <label class="form-input-label" for="email">E-mail *</label>
@@ -29,6 +30,7 @@
       placeholder="Ex: joaocandido@email.com"
       maxlength="35"
       type="email"
+      name="email"
       required
     />
     <label class="form-input-label" for="fone">Telefone *</label>
@@ -38,10 +40,12 @@
       placeholder="Ex: (00) 00000-0000"
       maxlength="15"
       type="text"
+      name="fone"
       required
     />
     <button
       v-wave
+      type="submit"
       class="btn rounded-pill btn-blue-tertiary w-100 py-3 border-blue-secondary"
     >
       Agendar aula

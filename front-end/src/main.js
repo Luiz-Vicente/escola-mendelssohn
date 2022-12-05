@@ -4,6 +4,8 @@ import router from "./router";
 import { inject } from "@vercel/analytics";
 import ScreenSizeDetector from "screen-size-detector";
 import VWave from "v-wave";
+import vue3PhotoPreview from "vue3-photo-preview";
+import "vue3-photo-preview/dist/index.css";
 
 // const
 const screenSize = new ScreenSizeDetector();
@@ -13,7 +15,7 @@ const app = createApp(App);
 import "@/assets/scss/main.scss";
 
 // applying imported
-app.use(router).use(VWave);
+app.use(router).use(VWave).use(vue3PhotoPreview);
 
 // global variables
 app.config.globalProperties.$screenSize = screenSize;
