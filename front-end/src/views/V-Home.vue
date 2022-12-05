@@ -5,6 +5,7 @@
     <!-- <ODepositions /> -->
     <!-- <OPhotos /> -->
     <!-- <OGallery /> -->
+    <!-- <OFaq /> -->
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import OInstruments from "@/components/organisms/O-Instruments.vue";
 // import ODepositions from "@/components/organisms/O-Depositions.vue";
 // import OPhotos from "@/components/organisms/O-Photos.vue";
 // import OGallery from "@/components/organisms/O-Gallery.vue";
+// import OFaq from "@/components/organisms/O-Faq.vue";
 
 export default {
   components: {
@@ -22,6 +24,7 @@ export default {
     // ODepositions,
     // OPhotos,
     // OGallery,
+    // OFaq,
   },
 };
 </script>

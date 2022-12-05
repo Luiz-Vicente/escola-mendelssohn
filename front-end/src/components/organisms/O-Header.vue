@@ -46,17 +46,17 @@
       </div>
     </div>
     <div class="col d-flex flex-column align-items-center pt-5">
-      <ExpClass />
+      <ExperimentalClassroom />
     </div>
   </header>
 </template>
 
 <script>
-import ExpClass from "@/components/molecules/ExpClass.vue";
+import ExperimentalClassroom from "@/components/molecules/M-ExperimentalClassroom.vue";
 
 export default {
   components: {
-    ExpClass,
+    ExperimentalClassroom,
   },
 };
 </script>
