@@ -5,7 +5,7 @@
     :style="$screenSize.is.mobile ? 'padding: 0 20px' : 'padding: 0 100px'"
   >
     <div class="col"><img class="w-100" src="/img/utils/faq.png" alt="" /></div>
-    <div :class="{ 'mb-5': $screenSize.is.mobile }" class="col my-auto">
+    <div :class="$screenSize.is.mobile?'mb-5':'ms-5'" class="col my-auto">
       <h4 class="text-blue-primary">FAQ</h4>
       <p class="text-blue-primary fw-lighter fs-6 m-0">
         as perguntas mais comuns estão aqui

@@ -2,10 +2,9 @@
   <div>
     <OHeader />
     <OInstruments />
-    <!-- <ODepositions /> -->
-    <!-- <OPhotos /> -->
-    <!-- <OGallery /> -->
-    <!-- <OFaq /> -->
+    <!-- <ODepositions />
+    <OPhotos />
+    <OFaq /> -->
   </div>
 </template>
 
@@ -14,7 +13,6 @@ import OHeader from "@/components/organisms/O-Header.vue";
 import OInstruments from "@/components/organisms/O-Instruments.vue";
 // import ODepositions from "@/components/organisms/O-Depositions.vue";
 // import OPhotos from "@/components/organisms/O-Photos.vue";
-// import OGallery from "@/components/organisms/O-Gallery.vue";
 // import OFaq from "@/components/organisms/O-Faq.vue";
 
 export default {
@@ -23,7 +21,6 @@ export default {
     OInstruments,
     // ODepositions,
     // OPhotos,
-    // OGallery,
     // OFaq,
   },
 };

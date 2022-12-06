@@ -5,13 +5,13 @@ import { inject } from "@vercel/analytics";
 import ScreenSizeDetector from "screen-size-detector";
 import VWave from "v-wave";
 import vue3PhotoPreview from "vue3-photo-preview";
-import "vue3-photo-preview/dist/index.css";
 
 // const
 const screenSize = new ScreenSizeDetector();
 const app = createApp(App);
 
 // style
+import "vue3-photo-preview/dist/index.css";
 import '@coreui/coreui/dist/css/coreui.min.css'
 import "@/assets/scss/main.scss";
 

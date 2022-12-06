@@ -1,17 +1,68 @@
 <template>
   <div>
-    <img :class="$screenSize.is.mobile? 'w-100':'w-335px'" class="border border-3 border-red-tertiary p-1" :src="src" :alt="alt">
-    <i :class="$screenSize.is.mobile? 'fs-10':'fs-9'" class="bi bi-play-circle-fill text-white cursor-pointer"></i>
+    <div @click="(showVideo = true)">
+      <img
+        :class="$screenSize.is.mobile ? 'w-100' : 'w-335px'"
+        class="border border-3 border-red-tertiary p-1"
+        :src="img"
+        :alt="alt"
+      />
+      <i
+        :class="$screenSize.is.mobile ? 'fs-10' : 'fs-9'"
+        class="bi bi-play-circle-fill text-white cursor-pointer"
+      ></i>
+    </div>
+    <CModal
+      :visible="showVideo"
+      @close="
+        () => {
+          showVideo = false;
+        }
+      "
+    >
+      <CModalHeader>
+        <CModalTitle>{{student}}</CModalTitle>
+      </CModalHeader>
+      <CModalBody class="col"
+        ><iframe
+          width="100%"
+          height="400px"
+          :src="src"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe
+      ></CModalBody>
+    </CModal>
   </div>
 </template>
 
 <script>
+import {
+  CModal,
+  CModalBody,
+  CModalHeader,
+  CModalTitle,
+} from "@coreui/vue";
 export default {
+  components: {
+    CModal,
+    CModalBody,
+    CModalHeader,
+    CModalTitle,
+  },
   props: {
-    src: String,
+    img: String,
     alt: String,
-  }
-}
+    src: String,
+    student: String,
+  },
+  data() {
+    return {
+      showVideo: false,
+    };
+  },
+};
 </script>
 
 <style lang="scss">

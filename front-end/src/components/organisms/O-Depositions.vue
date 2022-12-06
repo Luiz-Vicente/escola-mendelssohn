@@ -9,9 +9,27 @@
       :class="{ 'flex-column': $screenSize.is.mobile }"
       class="my-5 d-flex align-items-center justify-content-around"
     >
-      <AVideo class="mb-4" src="/img/banner.png" alt="teste" />
-      <AVideo class="mb-4" src="/img/banner.png" alt="teste" />
-      <AVideo class="mb-4" src="/img/banner.png" alt="teste" />
+      <AVideo
+        class="mb-4"
+        student="Luiz Fernando"
+        src="https://www.youtube.com/embed/0CNPR2qNzxk"
+        img="/img/banner.png"
+        alt="teste"
+      />
+      <AVideo
+        class="mb-4"
+        student="Luiz Fernando"
+        src="https://www.youtube.com/embed/Lo2qQmj0_h4"
+        img="/img/banner.png"
+        alt="teste"
+      />
+      <AVideo
+        class="mb-4"
+        student="Luiz Fernando"
+        src="https://www.youtube.com/embed/0CNPR2qNzxk"
+        img="/img/banner.png"
+        alt="teste"
+      />
     </div>
   </section>
 </template>
