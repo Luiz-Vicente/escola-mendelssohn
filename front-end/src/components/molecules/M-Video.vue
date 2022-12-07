@@ -1,18 +1,18 @@
 <template>
   <div>
-    <div @click="(showVideo = true)">
+    <div @click="showVideo = true">
       <img
         :class="$screenSize.is.mobile ? 'w-100' : 'w-335px'"
         class="border border-3 border-red-tertiary p-1"
         :src="img"
         :alt="alt"
       />
-      <i
-        :class="$screenSize.is.mobile ? 'fs-10' : 'fs-9'"
-        class="bi bi-play-circle-fill text-white cursor-pointer"
-      ></i>
+      <!-- <i
+        class="bi bi-play-circle-fill text-white cursor-pointer fs-9"
+      ></i> -->
     </div>
     <CModal
+      alignment="center"
       :visible="showVideo"
       @close="
         () => {
@@ -21,7 +21,7 @@
       "
     >
       <CModalHeader>
-        <CModalTitle>{{student}}</CModalTitle>
+        <CModalTitle>{{ student }}</CModalTitle>
       </CModalHeader>
       <CModalBody class="col"
         ><iframe
@@ -38,12 +38,7 @@
 </template>
 
 <script>
-import {
-  CModal,
-  CModalBody,
-  CModalHeader,
-  CModalTitle,
-} from "@coreui/vue";
+import { CModal, CModalBody, CModalHeader, CModalTitle } from "@coreui/vue";
 export default {
   components: {
     CModal,
