@@ -26,7 +26,10 @@
           class="text-decoration-none text-white fs-2 d-flex align-items-center"
           rel="noopener noreferrer"
         >
-          <i class="bi bi-instagram" :class="$screenSize.is.mobile ? 'fs-8 me-4' : 'fs-5 me-2'"></i>
+          <i
+            class="bi bi-instagram"
+            :class="$screenSize.is.mobile ? 'fs-8 me-4' : 'fs-5 me-2'"
+          ></i>
           <p class="m-0" v-show="!$screenSize.is.mobile">@escolamendelssohn</p>
         </a>
         <a
@@ -35,16 +38,22 @@
           class="text-decoration-none text-white fs-2 d-flex align-items-center"
           rel="noopener noreferrer"
         >
-          <i class="bi bi-facebook" :class="$screenSize.is.mobile ? 'fs-8 me-4' : 'fs-5 me-2'"></i>
+          <i
+            class="bi bi-facebook"
+            :class="$screenSize.is.mobile ? 'fs-8 me-4' : 'fs-5 me-2'"
+          ></i>
           <p class="m-0" v-show="!$screenSize.is.mobile">/escolamendelssohn</p>
         </a>
         <a
-          href="https://wa.me/5541997475217?text=Ol%C3%A1%2C+eu+gostaria+de+saber+mais+sobre+sites"
+          href="https://wa.me/5541995119829?text=Ol%C3%A1%2C+eu+gostaria+de+agendar+uma+aula+experimental"
           target="_blank"
           class="text-decoration-none text-white fs-2 d-flex align-items-center"
           rel="noopener noreferrer"
         >
-          <i class="bi bi-whatsapp" :class="$screenSize.is.mobile ? 'fs-8' : 'fs-5 me-2'"></i>
+          <i
+            class="bi bi-whatsapp"
+            :class="$screenSize.is.mobile ? 'fs-8' : 'fs-5 me-2'"
+          ></i>
           <p class="m-0" v-show="!$screenSize.is.mobile">(41) 99511-9829</p>
         </a>
       </div>
