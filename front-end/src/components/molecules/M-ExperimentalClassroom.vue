@@ -11,7 +11,7 @@
     <input type="hidden" name="_subject" value="Novo cadastro no site" />
     <input type="hidden" name="_cc" value="escolamendelssohn@hotmail.com" />
     <input type="hidden" name="_template" value="table" />
-    <input type="hidden" name="_next" :value="`https://wa.me/5541995119829?text=Ol%C3%A1%2C+eu+me+chamo+${this.name}+e+gostaria+de+agendar+uma+aula+experimental`"/>
+    <input type="hidden" name="_next" :value="`https://wa.me/5541998185620?text=Ol%C3%A1%2C+eu+me+chamo+${this.name}+e+gostaria+de+agendar+uma+aula+experimental`"/>
     <label class="form-input-label" for="name">Nome *</label>
     <input
       id="name"

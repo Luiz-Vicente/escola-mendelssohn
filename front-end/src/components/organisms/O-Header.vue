@@ -23,9 +23,9 @@
         <i class="bi bi-whatsapp text-red-tertiary fs-7 me-3"></i>
         <a
           target="_blank"
-          href="https://wa.me/554195119829?text=Ol%C3%A1%2C+eu+gostaria+de+agendar+uma+aula+experimental"
+          href="https://wa.me/5541998185620?text=Ol%C3%A1%2C+eu+gostaria+de+agendar+uma+aula+experimental"
           class="m-0 text-white text-decoration-none fs-4"
-          >(41) 99511-9829
+          >(41) 99818-5620
           <i
             class="bi bi-box-arrow-up-right text-red-tertiary fs-3 fw-bold ms-2"
           ></i

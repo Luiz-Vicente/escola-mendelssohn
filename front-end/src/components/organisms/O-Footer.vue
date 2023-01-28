@@ -45,7 +45,7 @@
           <p class="m-0" v-show="!$screenSize.is.mobile">/escolamendelssohn</p>
         </a>
         <a
-          href="https://wa.me/5541995119829?text=Ol%C3%A1%2C+eu+gostaria+de+agendar+uma+aula+experimental"
+          href="https://wa.me/5541998185620?text=Ol%C3%A1%2C+eu+gostaria+de+agendar+uma+aula+experimental"
           target="_blank"
           class="text-decoration-none text-white fs-2 d-flex align-items-center"
           rel="noopener noreferrer"
@@ -54,7 +54,7 @@
             class="bi bi-whatsapp"
             :class="$screenSize.is.mobile ? 'fs-8' : 'fs-5 me-2'"
           ></i>
-          <p class="m-0" v-show="!$screenSize.is.mobile">(41) 99511-9829</p>
+          <p class="m-0" v-show="!$screenSize.is.mobile">(41) 99818-5620</p>
         </a>
       </div>
     </div>

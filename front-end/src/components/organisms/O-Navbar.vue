@@ -35,7 +35,7 @@
         <a
           target="_blank"
           v-wave
-          href="https://wa.me/5541995119829?text=Ol%C3%A1%2C+eu+gostaria+de+agendar+uma+aula+experimental"
+          href="https://wa.me/5541998185620?text=Ol%C3%A1%2C+eu+gostaria+de+agendar+uma+aula+experimental"
           class="btn btn-sm btn-outline-red-tertiary rounded-pill"
           >Agendar aula experimental</a
         >
@@ -65,7 +65,7 @@
     <a
       target="_blank"
       v-wave
-      href="https://wa.me/5541995119829?text=Ol%C3%A1%2C+eu+gostaria+de+agendar+uma+aula+experimental"
+      href="https://wa.me/5541998185620?text=Ol%C3%A1%2C+eu+gostaria+de+agendar+uma+aula+experimental"
       class="ms-4 btn btn-outline-red-tertiary rounded-pill"
       >Agendar aula experimental</a
     >
