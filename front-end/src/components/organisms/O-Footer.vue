@@ -65,14 +65,14 @@
         feito com ❤️ por
         <a
           class="text-red-tertiary text-decoration-none"
-          href="https://www.instagram.com/eu_sou_o_luiz/"
-          >eu_sou_o_luiz</a
+          href="https://www.instagram.com/agencia.devicente/"
+          >agencia.devicente</a
         >
       </p>
       <a
         class="text-red-tertiary text-decoration-none"
-        href="https://devvicente.com.br"
-        >devvicente.com.br</a
+        href="https://devicente.com.br"
+        >devicente.com.br</a
       >
     </div>
   </footer>
